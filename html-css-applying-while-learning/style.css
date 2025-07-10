@@ -1,0 +1,51 @@
+.html {
+	background-color: papayawhip;
+	font-size: 22px;
+}
+
+.codinginfo {
+	color: yellow;
+}
+
+.HTML5 {
+	color: orange;
+}
+
+.manga {
+	color: red;
+}
+
+.videogames {
+	color: green;
+}
+
+.aboutme {
+	color: black;
+}
+
+#ProgrammingInfo,
+h2 {
+	font-family: monospace;
+	color: navy;
+}
+
+#H1 {
+	color: darkgoldenrod;
+}
+
+.HTMLabbr {
+	color: orange;
+}
+
+.CSSabbr {
+	color: purple;
+}
+
+#sec1 > p {
+	font-style: oblique;
+}
+
+.IDEs {
+	font-style: italic;
+	font-size: 26px;
+}
