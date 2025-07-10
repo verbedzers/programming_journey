@@ -23,8 +23,7 @@
 	color: black;
 }
 
-#ProgrammingInfo,
-h2 {
+#ProgrammingInfo {
 	font-family: monospace;
 	color: navy;
 }
@@ -48,4 +47,20 @@ h2 {
 .IDEs {
 	font-style: italic;
 	font-size: 26px;
+}
+
+.abouthtml {
+	font-size: 22px;
+	background-color: lightsteelblue;
+}
+
+.abouthtml .contactus {
+	font-size: 1.5rem;
+	color: green;
+}
+
+.infospan {
+	background: azure;
+	padding: 2px;
+	margin :18rem;
 }

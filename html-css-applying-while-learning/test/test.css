@@ -1,0 +1,63 @@
+html {
+	font-size: 30px;
+}
+
+button {
+	padding: 1rem 2rem;
+	background: #333;
+	color: white;
+	border: none;
+	box-shadow: 5px 5px 0 #ff0055;
+	transition: 0.2s ease;
+}
+
+button:active {
+	box-shadow: 2px 2px 0 #ff0055;
+	transform: translate(3px, 3px);
+}
+
+nav a:hover {
+	text-decoration: underline;
+	color: white;
+	background: #ff0055;
+	transform: scale(1.1);
+	transition: 0.3s ease;
+}
+
+body {
+	background: linear-gradient(270deg, #ff416c, #ff4b2b, #1e90ff);
+	background-size: 600% 600%;
+	animation: gradientMove 10s ease infinite;
+}
+
+@keyframes gradientMove {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.glass {
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(10px);
+	border-radius: 15px;
+	padding: 2rem;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background: #121212;
+		color: white;
+	}
+}
+
+.neon {
+	color: #fff;
+	text-shadow: 0 0 5px #0ff, 00 20px #0ff, 0 0 20px #0ff;
+}
