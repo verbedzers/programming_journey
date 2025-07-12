@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap");
+
+body {
+	font-family: "TikTok Sans", sans-serif;
+}
+
 .html {
 	background-color: papayawhip;
 	font-size: 22px;
@@ -24,12 +30,18 @@
 }
 
 #ProgrammingInfo {
-	font-family: monospace;
 	color: navy;
 }
 
 #H1 {
-	color: darkgoldenrod;
+	border: outset 10px blue;
+	border-radius: 15px;
+	margin: 20px auto;
+	padding: 20px;
+	width: 300px;
+	color: red;
+	text-align: center;
+	background-color: darkorchid;
 }
 
 .HTMLabbr {
@@ -40,12 +52,7 @@
 	color: purple;
 }
 
-#sec1 > p {
-	font-style: oblique;
-}
-
 .IDEs {
-	font-style: italic;
 	font-size: 26px;
 }
 
@@ -59,8 +66,28 @@
 	color: green;
 }
 
-.infospan {
-	background: azure;
-	padding: 2px;
-	margin :18rem;
+.infoh1 {
+	border: 3px solid blue;
+	border-radius: 10px;
+	width: 300px;
+	margin: 20px auto;
+	padding: 20px;
+	background: chocolate;
+	text-align: center;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover {
+	color: green;
+}
+
+a:active {
+	color: gold;
+}
+
+li {
+	list-style-image: url(images/list-style-image3.png) ;
 }
